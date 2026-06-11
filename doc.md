@@ -10,17 +10,20 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:xp
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:xpath("//div[@aria-posinset and .//*[name()='use']/parent::*[name()='svg' and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) > 61.63 and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) < 61.65]]"):upward(6)
 
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(Reels và video ngắn):remove()
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(Những người bạn có thể biết):remove()
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(Reels):remove()
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[aria-label="Mở thước phim trong Công cụ xem của Reels"]:remove()
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style^="border-radius: max(0px, min(8px,"] > div > div > div > div:has-text(Những người bạn có thể biết):remove()
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[aria-posinset]:has(h4 [role=button]:has-text(/^Theo dõi$/)):remove()
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[aria-posinset]:has(h4 [role=button]:has-text(/^Tham gia$/)):remove()
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(Sponsored):remove()
 www.facebook.com##[aria-label="Được tài trọ"]:upward(19)
+
 www.facebook.com##[aria-label="Những người bạn có thể biết"]:upward(19)
 www.facebook.com##[aria-label="Lời mời kết bạn"]:upward(19)
-facebook.com##div[aria-posinset]:has-text(Được tài trợ):remove()
-facebook.com##div[aria-posinset]:has-text(Gợi ý cho bạn):remove()
-facebook.com##div:has-text(Sponsored):upward(10)
+
+
+!youtube ######
 ! Title: Hide YouTube Shorts
 ! Description: Hide all traces of YouTube shorts videos on YouTube
 ! Version: 1.10.0
@@ -44,7 +47,6 @@ www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer[page-subtyp
 
 ! Hide shorts button in sidebar
 www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
-
 ! Tablet resolution
 www.youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
 
@@ -52,7 +54,7 @@ www.youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
 www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-rich-section-renderer:has(#title:has-text(/(^| )Shorts( |$)/i))
 www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(/(^| )Shorts( |$)/i))
 
-! Hide shorts tab on channel pages
+! Hide shorts tab on channel pages`
 ! Old style
 www.youtube.com##tp-yt-paper-tab:has(.tp-yt-paper-tab:has-text(Shorts))
 ! New style (2023-10)
@@ -105,14 +107,32 @@ www.facebook.com###_r_4ih_ > .x1n2onr6.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak
 www.facebook.com###_r_4ih_ > .x1n2onr6.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div > .x3awd8m.x1db0b2.x16zosiy.xh8yej3.x1n2onr6.x10wlt62.x6ikm8r.xl56j7k.x1egiwwb.x1q0g3np.x78zum5.x5omr3n.x1k1lpwg.xjppbhk.xfrllxf.xal61yo > .xh8yej3.x10l6tqk.x1us6l5c.x5yr21d
 www.facebook.com###_r_4ih_ > .x1n2onr6.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div > .x3awd8m.x1db0b2.x16zosiy.xh8yej3.x1n2onr6.x10wlt62.x6ikm8r.xl56j7k.x1egiwwb.x1q0g3np.x78zum5.x5omr3n.x1k1lpwg.xjppbhk.xfrllxf.xal61yo
 www.facebook.com###_r_3o8_ > .x1n2onr6.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div > .x3awd8m.x1db0b2.x16zosiy.xh8yej3.x1n2onr6.x10wlt62.x6ikm8r.xl56j7k.x1egiwwb.x1q0g3np.x78zum5.x5omr3n.x1k1lpwg.xjppbhk.xfrllxf.xal61yo > .xh8yej3.x10l6tqk.x1us6l5c.x5yr21d > .xh8yej3.x5yr21d
-www.facebook.com###_r_3o8_ > .x1n2onr6.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div > .x3awd8m.x1db0b2.x16zosiy.xh8yej3.x1n2onr6.x10wlt62.x6ikm8r.xl56j7k.x1egiwwb.x1q0g3np.x78zum5.x5omr3n.x1k1lpwg.xjppbhk.xfrllxf.xal61yo
+www.facebook.com###_r_3o8_ > .x1n2onr6.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div > .x3awd8m.x1db0b2.x16zosiy.xh8yej3.x1n2onr6.x10wlt62.x6ikm8r.xl56j7k.x1egiwwb.x1q0g3np.x78zum5.x5omr3n.x1k1lpwg.xjppbhk.xfrllxf.xal61yo > .xh8yej3.x10l6tqk.x1us6l5c.x5yr21d
 www.facebook.com###_r_3o8_ > .x1n2onr6.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div > .x3awd8m.x1db0b2.x16zosiy.xh8yej3.x1n2onr6.x10wlt62.x6ikm8r.xl56j7k.x1egiwwb.x1q0g3np.x78zum5.x5omr3n.x1k1lpwg.xjppbhk.xfrllxf.xal61yo
 www.facebook.com##.xh8yej3.x10l6tqk.x1us6l5c.x5yr21d > .xh8yej3.x5yr21d
 www.facebook.com##.xh8yej3.x10l6tqk.x1us6l5c.x5yr21d
 www.facebook.com##.x3awd8m.x1db0b2.x16zosiy.xh8yej3.x1n2onr6.x10wlt62.x6ikm8r.xl56j7k.x1egiwwb.x1q0g3np.x78zum5.x5omr3n.x1k1lpwg.xjppbhk.xfrllxf.xal61yo
 
 ! Sep 14, 2025 https://www.facebook.com
-www.facebook.com##.x8du52y.x1164lod.xmzvs34.xwib8y2.xf159sx.x1y1aw1k.x1yc453h.x13fj5qh.xat24cr.x1xegmmw.xdj266r.xjb2p0i.x1ypdohk.x1o6z2jb.x1i1ezom.x1otrzb0.xhk9q7s.x1f0uuog.xaqea5y.x12wdn4z.x6umtig.x78zum5.html-div
+www.facebook.com##.x8du52y.x1164lod.xmzvs34.xwib8y2.xf159sx.x1y1aw1k.x1yc453h.x13fj5qh.xat24cr.x1xegmmw.xdj266r.xjb2p0i.x1ypdohk.x1ihp6rs.xr2y4jy.x1whfx0g.x1i5p2am.x1f0uuog.xaqea5y.x12wdn4z.x6umtig.x78zum5.html-div
+
+! Dec 26, 2025 https://www.rophim.li
+||i.finallygotthexds.site/vpromolink/a9/06/a906307f7d0f89413dd8a6002d046635/a906307f7d0f89413dd8a6002d046635.gif$image
+www.rophim.li##.is-catfish.is-wide.sspp-area
+||i.finallygotthexds.site/vpromolink/6e/0c/6e0c71402195fe2d406d44981b0bac70/6e0c71402195fe2d406d44981b0bac70.gif$image
+www.rophim.li##div.is-wide.sspp-area:nth-of-type(3)
+www.rophim.li##div.is-3x2.sspp-area:nth-of-type(2)
+
+! Dec 27, 2025 https://www.rophim.li
+||i.finallygotthexds.site/vpromolink/e4/b2/e4b2eea27144ea2e98fbae1de6121d3e/e4b2eea27144ea2e98fbae1de6121d3e.gif$image
+
+
+! fallback theo text
+facebook.com##div[aria-posinset]:has-text(Được tài trợ):remove()
+facebook.com##div[aria-posinset]:has-text(Gợi ý cho bạn):remove()
+facebook.com##div:has-text(Sponsored):upward(10)
+
+
 ```
 
 ### AdGuard script for Opera
@@ -156,7 +176,7 @@ www.youtube.com##ytm-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?
 Description: After booting the dual boot to the bios, Windows only allow RST/VMD meanwhile Linux Mint only availabel to access when bios setting at AHCI 
 > Boot to window -> open CMD run by admin
 >> bcdedit /set {current} safeboot minimal
-> Restart to bios -> change setting in bios 
+> Restart to bios -> change System Setting in bios 
 >> RST/VMD -> Disabled
 >> AHCI -> Enabled
 >> Save the setting and boot to Window again (Window will update AHCI driver automatic)
