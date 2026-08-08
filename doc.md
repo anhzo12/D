@@ -17,12 +17,12 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[aria-posinset]:has(h4 [role=button]:has-text(/^Theo dõi$/)):remove()
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[aria-posinset]:has(h4 [role=button]:has-text(/^Tham gia$/)):remove()
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(Sponsored):remove()
-www.facebook.com##[aria-label="Được tài trọ"]:upward(19)
+www.facebook.com##[aria-label="Được tài trợ"]:upward(19)
 
 www.facebook.com##[aria-label="Những người bạn có thể biết"]:upward(19)
 www.facebook.com##[aria-label="Lời mời kết bạn"]:upward(19)
 
-
+facebook.com##[data-ad-rendering-role="profile_name"]:upward([aria-posinset]:has([data-ad-rendering-role="story_message"]):has([data-ad-rendering-role^="cta-"])):remove()
 !youtube ######
 ! Title: Hide YouTube Shorts
 ! Description: Hide all traces of YouTube shorts videos on YouTube
@@ -131,6 +131,7 @@ www.rophim.li##div.is-3x2.sspp-area:nth-of-type(2)
 facebook.com##div[aria-posinset]:has-text(Được tài trợ):remove()
 facebook.com##div[aria-posinset]:has-text(Gợi ý cho bạn):remove()
 facebook.com##div:has-text(Sponsored):upward(10)
+
 
 
 ```
