@@ -187,3 +187,26 @@ Description: After booting the dual boot to the bios, Windows only allow RST/VMD
 
 ## Tool change partition driver
 > Minitool partition wirzad
+
+
+## Active microsoft office
+> powershell : irm https://get.activated.win | iex
+> source     : https://massgrave.dev/#Method_1_-_PowerShell
+
+
+## Fix window 11 no audio device
+> run exe    : ./Realtek-High-Definition-Audio-Driver_XF4RR_WIN_6.0.8984.1_A02_02.exe
+> source     : 
+
+
+## Fix window 11 no wifi
+> run exe    : ./Intel-AX411-AX211-AX210-AX201-AX200-9560-9462-9260-8265-8260-7265-3165_WHK54_WIN_22.200.2.1_A47_03.exe
+> source     : 
+
+
+## make Windows 11 always "show more options"
+> terminal   : reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+> source     : https://www.reddit.com/r/techsupport/comments/1cv8xt3/how_can_i_make_windows_11_always_show_more/?rdt=50387
+
+
+
