@@ -132,6 +132,15 @@ facebook.com##div[aria-posinset]:has-text(Được tài trợ):remove()
 facebook.com##div[aria-posinset]:has-text(Gợi ý cho bạn):remove()
 facebook.com##div:has-text(Sponsored):upward(10)
 
+! Sep 10, 2026 https://www.facebook.com
+www.facebook.com##.x1y1aw1k.xwib8y2.x9otpla.x1wsgfga.x1ja2u2z.x1n2onr6.x9f619 > .xhfbhpw.x1rohswg.x1y1aw1k.xwib8y2.xat24cr.x9f619.xw2csxc.xjx87ck.x1yqm8si.xfk6m8.x1pq812k.x1ja2u2z.x1n2onr6.x10wlt62.xdt5ytf.x78zum5.x5lxg6s.x1q594ok.xb57i2i
+
+! Sep 11, 2026 https://www.facebook.com
+www.facebook.com##.xyen2ro.x1uc6qws.x1n2onr6 > .x1y1aw1k.xwib8y2
+
+! Sep 14, 2026 https://www.facebook.com
+www.facebook.com##div.x1lliihq:nth-of-type(2) > div > span > .x1lliihq > div > .xod5an3.x1ja2u2z.xh8yej3.x1n2onr6 > .x1ja2u2z.x1n2onr6 > div > div > .x1a2a7pz > .xjp7ctv > .xdt5ytf.x78zum5 > .x1ja2u2z.x1n2onr6.x9f619 > .xh8yej3.x1n2onr6.x78zum5.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div > .xquyuld.x10wlt62.x6ikm8r.xh8yej3.x9f619.xau1kf4.x1vsv7so.x1dmpuos.xw5cjc7.x1jx94hy.x1ja2u2z.x1n2onr6 > div > .x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div > .x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div > .x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div
+
 
 
 ```
@@ -157,6 +166,7 @@ m.youtube.com##ytm-reel-shelf-renderer:has(.reel-shelf-title-wrapper .yt-core-at
 
 www.youtube.com##ytd-grid-video-renderer:has([overlay-style="SHORTS"])
 www.youtube.com##ytd-rich-item-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##ytd-rich-section-renderer:nth-of-type(1)
 www.youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
 www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(/(^| )Shorts( |$)/i))
 www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-rich-section-renderer:has(#title:has-text(/(^| )Shorts( |$)/i))
@@ -171,6 +181,7 @@ www.youtube.com##ytd-reel-shelf-renderer:has(#title:has-text(/(^| )Shorts.?Remix
 www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 www.youtube.com##ytd-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
 www.youtube.com##ytm-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
+
 ```
 
 ## Fix conflict RST when dual boot 
